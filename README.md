@@ -11,7 +11,7 @@ a simple slide layout library,just one java class file.
 
 ==============
 #效果图  
-![](https://github.com/mengzhinan/SlideLayout/blob/master/SlideLayout_demo/demo.gif)  
+![](https://github.com/mengzhinan/SlideLayout/blob/master/demo.gif)  
 #部分代码:  
 ##activity_main.xml:
 
@@ -34,7 +34,6 @@ a simple slide layout library,just one java class file.
         slide:optionsLayoutPosition="follow"
         slide:optionsResId="@layout/item_options"
         slide:slideDirection="right" />
-
     ...
 </LinearLayout>
 
@@ -134,9 +133,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 =====
 
 至于在listview和recyclerview中的用法，请参考github库中的demo：  
-./SlideLayout_demo/demo/SlideLayout_listview  
-./SlideLayout_demo/demo/SlideLayout_recyclerview  
+./demo/SlideLayout_listview  
+./demo/SlideLayout_recyclerview  
 ###下面贴出效果图：
-![](https://github.com/mengzhinan/SlideLayout/blob/master/SlideLayout_demo/listview.gif)    
-![](https://github.com/mengzhinan/SlideLayout/blob/master/SlideLayout_demo/recyclerview.gif)    
+![](https://github.com/mengzhinan/SlideLayout/blob/master/listview.gif)    
+![](https://github.com/mengzhinan/SlideLayout/blob/master/recyclerview.gif)    
 更多资料请关注[我的博客](http://blog.csdn.net/fesdgasdgasdg?viewmode=contents)
+
+
