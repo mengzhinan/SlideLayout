@@ -137,6 +137,9 @@ slide:optionsResId="@layout/item_options" 操作菜单布局，即下层布局
 ./demo/SlideLayout_recyclerview  
 ###下面贴出效果图：
 ![](https://github.com/mengzhinan/SlideLayout/blob/master/listview.gif)    
+
+-
+
 ![](https://github.com/mengzhinan/SlideLayout/blob/master/recyclerview.gif)    
 
 
