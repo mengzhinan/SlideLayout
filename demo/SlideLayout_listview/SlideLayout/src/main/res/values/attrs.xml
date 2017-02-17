@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlideLayout">
+        <!--是否可以拖拽-->
+        <attr name="canDrag" format="boolean" />
+        <!-- 滑动最小阀值 -->
+        <attr name="thresholdMoved" format="dimension|reference" />
+        <!--内容部分背景颜色-->
+        <attr name="contentBgColor" format="color|reference" />
+        <!--内容部分背景资源-->
+        <attr name="contentBgResId" format="reference" />
+        <!--item的内容-->
+        <attr name="contentResId" format="reference" />
+        <!--item的滑动操作选项-->
+        <attr name="optionsResId" format="reference" />
+        <!--item内容布局滑动方向-->
+        <attr name="slideDirection" format="enum">
+            <enum name="right" value="0" />
+            <enum name="left" value="1" />
+        </attr>
+        <!--item的options布局摆放位置-->
+        <attr name="optionsLayoutPosition" format="enum">
+            <enum name="follow" value="0" />
+            <enum name="fixed" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

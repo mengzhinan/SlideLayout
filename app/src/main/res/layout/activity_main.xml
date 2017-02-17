@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slide="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.duke.slidelayout.SlideLayout
+        android:id="@+id/slideLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        slide:canDrag="true"
+        slide:contentResId="@layout/item_content"
+        slide:optionsLayoutPosition="follow"
+        slide:optionsResId="@layout/item_options"
+        slide:slideDirection="right" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/setSlideDirection1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="从左侧滑动" />
+        <Button
+            android:id="@+id/setSlideDirection2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="从右侧滑动" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/setOptionsLayoutPosition1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菜单选项固定" />
+        <Button
+            android:id="@+id/setOptionsLayoutPosition2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菜单选项跟随" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/setOpenedfalse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭选项菜单" />
+
+    <Button
+        android:id="@+id/setOpenedtrue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开选项菜单" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.duke.slidelayout.SlideLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slide="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    slide:contentBgColor="#0099CC"
+    slide:contentResId="@layout/item_content"
+    slide:optionsResId="@layout/item_options" />
