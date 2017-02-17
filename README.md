@@ -16,7 +16,6 @@ a simple slide layout library,just one java class file.
 ##activity_main.xml:
 
 -
-
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:slide="http://schemas.android.com/apk/res-auto"
