@@ -15,7 +15,6 @@ a simple slide layout library,just one java class file.
 #部分代码:  
 ##activity_main.xml:
 
--
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:slide="http://schemas.android.com/apk/res-auto"
@@ -45,7 +44,7 @@ slide:optionsResId="@layout/item_options" 操作菜单布局，即下层布局
 
 ##MainActivity.java:  
 
--
+
 
     public class MainActivity extends AppCompatActivity implements View.OnClickListener,
         SlideLayout.OnOptionsStateChangeListener, SlideLayout.OnChildClickListener {  
