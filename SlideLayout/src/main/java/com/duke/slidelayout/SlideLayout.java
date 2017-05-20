@@ -275,7 +275,17 @@ public class SlideLayout extends ViewGroup {
             if (hasContentBgColor) {
                 contentView.setBackgroundColor(contentBgColor);
             }
-            setRecursionClick(contentView);
+            /**
+             * 内容布局不能递归设置点击事件，否则被里面的item消耗了，达不到item的点击效果
+             */
+            contentView.setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (onChildClickListener != null) {
+                        onChildClickListener.onChildClick(v);
+                    }
+                }
+            });
             //添加内容view
             addView(contentView);
         } else {
